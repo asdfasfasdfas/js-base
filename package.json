@@ -1,0 +1,12 @@
+{
+  "name": "js-base",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun index.js"
+  }
+}
