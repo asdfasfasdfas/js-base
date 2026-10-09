@@ -5,7 +5,7 @@ function convert(amount, currencyFrom, currencyTo) {
   if (currencyFrom === "руб" && currencyTo === "$") {
     return amount / rubRate;
   } else if (currencyFrom === "$" && currencyTo == "руб") {
-    return amount / usdRate;
+    return amount * usdRate;
   }
 
   return null;
